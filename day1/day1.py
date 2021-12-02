@@ -29,7 +29,7 @@ def getMeasurementIncreases(depths):
     return res
 
 if __name__ == '__main__':
-    filePath = f"../{sys.argv[1]}"
+    filePath = f"{sys.argv[1]}"
 
     with open(filePath) as f:
         contents = f.readlines()
