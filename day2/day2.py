@@ -40,9 +40,9 @@ if __name__ == '__main__':
         commands = f.readlines()
         commands = [command.rstrip().split() for command in commands]
 
+    print("*************PART 1**************")
     horizontalPos = getHorizontal(commands)
     depth = getDepth(commands)
-    print("*************PART 1**************")
     print(horizontalPos*depth)
 
     print("\n*************PART 2**************")
